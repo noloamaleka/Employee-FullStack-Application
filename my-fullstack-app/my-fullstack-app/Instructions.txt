@@ -1,0 +1,38 @@
+Instructions for running the application:
+
+In both the frontend and backend directories node modules have been deleted and will have to be re-installed
+
+To do this: 
+-Navigate to the frontend and backend directories respectively and:
+Use: 
+cd backend
+cd frontend
+npm install 
+to install the dependencies
+
+Starting and running the servers: 
+
+Backend:
+-Navigate to the backend directory and:
+Use: node server.js 
+
+A message indicating where the server is running will appear
+
+Frontend:
+-Navigate to the frontend directory and:
+Use: npm start
+
+The development server will be launched whereby the user will be able to see the frontend
+application running on http://localhost/3000 
+The backend port has been specified as port 3000 but you will be prompted to run
+the development server on another port. Choose yes when prompted.
+
+Other Dependencies to install:
+
+Dependencies to install in frontend directory if they aren't already installed:
+
+npm install react-router-dom@6 axios
+npm install @babel/plugin-proposal-private-property-in-object --save-dev
+
+
+
